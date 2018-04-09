@@ -9,11 +9,9 @@ function destructivelyAddElementToBeginningOfArray(array1,item){
   return array2;
 }
 function addElementToEndOfArray(array1,item){
-  
+return [...array1,item];
 }
-function destructivelyAddElementToBeginningOfArray(array1,item){
-  return [...array1,item];
-}
+
 function accessElementInArray(array1,indx){
   return array1[indx];
 }
